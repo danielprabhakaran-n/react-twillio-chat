@@ -1,0 +1,21 @@
+.channel-search {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-search-input {
+  background: #f4f4f8;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.channel-search-input::placeholder {
+  text-align: center;
+}
+
+.channel-search-input:focus::placeholder {
+  text-align: left;
+}
